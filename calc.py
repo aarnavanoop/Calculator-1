@@ -1,16 +1,16 @@
 #Create a function calc which gets operator and two numbers and returns the calculation result.
 def calc(a,b,c):
-    if a == "+":
+    if a == "+" or a == "add":
         return b + c
-    elif a == "-":
+    elif a == "-" or a == "sub":
         return b - c
-    elif a == "/":
+    elif a == "/" or a == "div":
         return b/c
-    elif a == "*":
+    elif a == "*" or a =="mul":
         return b*c
-    elif a == "^":
+    elif a == "^" or a =="pow":
         return b**c
-    elif a == "%":
+    elif a == "%" or a =="mod":
         return b%c
 
 
