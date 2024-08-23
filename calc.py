@@ -8,8 +8,10 @@ def calc(a,b,c):
         return b/c
     elif a == "*":
         return b*c
-
-
+    elif a == "^":
+        return b**c
+    elif a == "%":
+        return b%c
 
 
 def main():
@@ -19,5 +21,6 @@ def main():
     result = calc(operator,num1,num2)
     print(result)
     
+
 
 main()
